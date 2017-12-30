@@ -1,0 +1,27 @@
+{
+	"name": "service-le",
+	"version": "0.0.1",
+	"description": "Letsencrypt DNS service",
+	"main": "letsencrypt.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NodeTopia/service-le.git"
+	},
+	"author": "Tim <mangoraft@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/NodeTopia/service-le/issues"
+	},
+	"homepage": "https://github.com/NodeTopia/service-le#readme",
+	"dependencies": {
+		"le-challenge-dns": "^2.2.0",
+		"letsencrypt": "^2.1.8",
+		"moment": "^2.20.1",
+		"nodetopia-kue": "git+https://github.com/NodeTopia/Kue.git",
+		"nodetopia-lib": "git+https://github.com/NodeTopia/Lib.git",
+		"nodetopia-model": "git+https://github.com/NodeTopia/Model.git"
+	}
+}
